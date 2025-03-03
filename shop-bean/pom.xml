@@ -10,14 +10,17 @@
     <artifactId>shop-bean</artifactId>
     <packaging>jar</packaging>
 
-    <name>shop-bean</name>
-    <url>http://maven.apache.org</url>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
     <dependencies>
+        <dependency>
+            <groupId>com.yue</groupId>
+            <artifactId>shop-utils</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>

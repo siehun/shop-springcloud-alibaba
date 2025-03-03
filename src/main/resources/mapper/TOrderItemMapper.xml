@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="generator.mapper.TOrderItemMapper">
+
+    <resultMap id="BaseResultMap" type="generator.domain.TOrderItem">
+            <id property="id" column="id" jdbcType="BIGINT"/>
+            <result property="tOrderId" column="t_order_id" jdbcType="BIGINT"/>
+            <result property="tProId" column="t_pro_id" jdbcType="BIGINT"/>
+            <result property="tProName" column="t_pro_name" jdbcType="VARCHAR"/>
+            <result property="tProPrice" column="t_pro_price" jdbcType="DECIMAL"/>
+            <result property="tNumber" column="t_number" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <sql id="Base_Column_List">
+        id,t_order_id,t_pro_id,
+        t_pro_name,t_pro_price,t_number
+    </sql>
+</mapper>
