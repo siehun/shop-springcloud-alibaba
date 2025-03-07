@@ -1,10 +1,10 @@
-package io.yue.shop.shopuser;
+package io.yue.shop.product;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ShopUserApplicationTests {
+class ShopProductApplicationTests {
 
     @Test
     void contextLoads() {

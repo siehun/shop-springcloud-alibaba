@@ -1,10 +1,10 @@
-package io.yue.shop.shopproduct;
+package io.yue.shop.order;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ShopProductApplicationTests {
+class ShopOrderApplicationTests {
 
     @Test
     void contextLoads() {
